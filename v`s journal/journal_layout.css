@@ -1,0 +1,106 @@
+body{
+	background-image: url("https://media.istockphoto.com/photos/texture-of-blue-paper-picture-id945663596?k=6&m=945663596&s=612x612&w=0&h=Tl7ZKKzERt5_WtEcUwp9yZKDjQZev15RTZ0a85WkUbs=");
+	
+}
+.whole{
+	border: 10px white solid;
+	background-color: white;
+	display: block;
+	margin-right: 10%;
+	margin-left: 10%;
+	display:border-box;
+	  
+}
+
+
+
+
+.row{
+	  display: flex;
+  flex-wrap: nowrap;
+}
+.column {
+  float: left;
+  padding: 10px;
+  
+
+}
+
+.left {
+    border: 4px #2093c3 solid;
+ 	background-color: #65c9d4;
+ 	padding: 5px;
+ 	margin-top: 20px;
+ 	margin-right: 0px;
+ 	margin-bottom:auto;
+    
+}
+
+.right {
+  width: 80%;
+  margin-right: 0;
+    
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+
+}
+
+
+ .first{
+ 	background-color:  #A8F0F0;
+ 	text-align: right;
+ 	margin-right: 0;
+ }
+
+ .first1{
+ 	font-size: 14pt;
+ }
+
+ .second{
+ 	border: 4px #C2E9E9 solid;
+ 	background-color: #E8FBFB;
+ 	padding: 5px;
+ 	margin-top: 10px;
+ 	margin-right: 0;
+ }
+ .second img{
+  float:right;
+
+ 
+    height: 60px;
+    width: 60px;
+
+ }
+ span.second1{
+ 	border-bottom: 2px lightblue dashed;
+ }
+  .third{
+ 	border: 4px #C2E9E9 solid;
+ 	background-color: #E8FBFB;
+ 	padding: 5px;
+ 	margin-top: 10px;
+ 	margin-right:0;
+ }
+ span.third1{
+ 	border-bottom: 2px lightblue dashed;
+ }
+ .third img
+ {
+   float:right;
+
+    
+    height: 80px;
+    width: 80px;
+
+ }
+
+
+
+ }
+ h1:hover {
+  background-color: yellow;
+}
